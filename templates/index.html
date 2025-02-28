@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Visa Mock Interview</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h2>Visa Mock Interview</h2>
+    <form method="post">
+        <label>Name:</label>
+        <input type="text" name="name" required><br>
+
+        <label>Age:</label>
+        <input type="number" name="age" required><br>
+
+        <label>Nationality:</label>
+        <input type="text" name="nationality" required><br>
+
+        <label>Visa Type:</label>
+        <select name="visa_type" required>
+            <option value="Student Visa">Student Visa</option>
+            <option value="Work Visa">Work Visa</option>
+        </select><br>
+
+        <button type="submit">Start Interview</button>
+    </form>
+</body>
+</html>

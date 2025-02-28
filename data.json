@@ -1,0 +1,12 @@
+{
+    "Student Visa": [
+        "Why do you want to study in this country?",
+        "What course are you planning to take?",
+        "How will you fund your studies?"
+    ],
+    "Work Visa": [
+        "What job are you applying for?",
+        "Do you have prior experience in this field?",
+        "Why do you want to work in this country?"
+    ]
+}

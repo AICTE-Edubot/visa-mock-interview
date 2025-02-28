@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Interview Results</title>
+</head>
+<body>
+    <h2>Your Interview Responses</h2>
+    <ul>
+        {% for question, response in responses.items() %}
+            <li><strong>{{ question }}</strong>: {{ response }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/">Start Over</a>
+</body>
+</html>
